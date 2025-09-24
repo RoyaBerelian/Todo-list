@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.Css">
+</head>
+<body>
+    <header>
+        <h1>Drag & Drop<br><span>To Do List</span></h1>
+    </header>
+    <div class="add-task-container">
+        <input type="text" maxlength="12" id="taskText" placeholder="New Task...">
+        <button class="add-button">Add New Task</button>
+    </div>
+    <div class="main-container">
+        <ul>
+            <li class="to-do-column">
+                <div class="column-header">
+                    <h4>To Do</h4>
+                </div>
+
+                <ul class="task-list">
+                    <li class="task">
+                        <p>roya</p>
+                    </li>
+                </ul>
+
+            </li>
+
+
+
+
+
+
+            <li class="doing-column">
+                <div class="column-header">
+                    <h4>Doing</h4>
+                </div>
+            </li>
+            <li class="done-column">
+                <div class="column-header">
+                    <h4>Done</h4>
+                </div>
+            </li>
+            <li class="trash-column">
+                <div class="column-header">
+                    <h4>Trash</h4>
+                </div>
+<!-- 
+                <ul>
+                    <li>
+                        <p></p>
+                    </li>
+                </ul>
+-->
+                <div class="column-button">
+                    <button class="button delete-button">Delete</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
